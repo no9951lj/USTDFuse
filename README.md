@@ -4,7 +4,7 @@ Implementation of "USTDFuse:Structure-Texture Decomposition based deep unrolling
 
 # Requirements
 # create & activate
-conda create -n tsdfuse python=3.8 -y      # 改环境名/版本
+conda create -n tsdfuse python=3.8 -y
 conda activate tsdfuse
 # install deps
 pip install -r requirements.txt 
@@ -14,7 +14,7 @@ pip install -r requirements.txt
 # Test
 python test.py
 
-#Train
+# Train
 python decom-train.py
 python decom-train-jixu.py
 python train.py
